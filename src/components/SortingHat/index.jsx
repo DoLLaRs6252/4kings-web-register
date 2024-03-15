@@ -46,10 +46,6 @@ export default function SortingHat() {
     }
   };
 
-  const handleSubmit = () => {
-    console.log(applicants);
-  };
-
   return (
     <div>
       <HeadBanner />

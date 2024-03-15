@@ -4,7 +4,7 @@ export default function ApplicantsSection({ applicants }) {
   return (
     <div className="">
       <div className=" ">
-        <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className="bg-gray-950 p-6  shadow-lg text-red-600">
           <h2 className="text-2xl font-bold mb-6">Applicants</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {applicants.map((applicant, index) => (

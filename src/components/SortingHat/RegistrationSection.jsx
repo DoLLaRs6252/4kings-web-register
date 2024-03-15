@@ -3,8 +3,8 @@ import React from 'react';
 export default function RegistrationSection({ remainingApplicants, handleNameSubmit }) {
   return (
     <div className=" py-12 w-[50%] ">
-      <div className=" mx-auto px-4">
-        <div className=" p-6  text-center">
+      <div className="max-w-3xl mx-auto px-4">
+        <div className="bg-white p-6 rounded-lg shadow-lg text-center">
           <h2 className="text-[4rem] font-bold mb-6">Register now!</h2>
           <form onSubmit={handleNameSubmit}>
             <div className="form-control items-center">

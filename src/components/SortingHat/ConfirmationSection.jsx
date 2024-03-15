@@ -10,8 +10,8 @@ export default function ConfirmationSection({ count, inputValue, handleInputChan
 
     return (
         <div className="py-12 w-[50%] h-64 ">
-            <div className="w-[100%] mx-auto px-4 ">
-                <div className=" items-center space-y-4">
+            <div className=" max-w-3xl  w-[100%] mx-auto px-4 ">
+                <div className="bg-white p-6 rounded-lg shadow-lg items-center space-y-4">
                     <div>
                         <div className="text-[8rem] text-center font-bold">{count} King</div>
                     </div>
@@ -20,6 +20,7 @@ export default function ConfirmationSection({ count, inputValue, handleInputChan
                             type="number"
                             value={inputValue}
                             onChange={handleInputChange}
+                            placeholder="Number of people"
                             className="input input-bordered w-[500px] max-w-xs m-4"
                             disabled={confirmed}
                         />
@@ -32,7 +33,10 @@ export default function ConfirmationSection({ count, inputValue, handleInputChan
                                     Confirm
                                 </button>
                             )}
-                            {confirmed && <p className="text-gray-500">Confirmed</p>}
+                            <div className="items-center">
+                                {confirmed && <p className= " text-gray-500 m-7">Confirmed</p>}
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

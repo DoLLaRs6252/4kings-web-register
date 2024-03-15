@@ -54,7 +54,7 @@ export default function SortingHat() {
     <div>
       <HeadBanner />
       <div className="bg-gray-100">
-        <div className="flex bg-slate-800 text-red-600">
+        <div className="flex bg-gray-950 text-red-600" >
           <ConfirmationSection
             count={count}
             inputValue={inputValue}

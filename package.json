@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://dollars6252.github.io/4kings-web-register/",
   "name": "4king",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

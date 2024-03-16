@@ -1,8 +1,24 @@
-# React + Vite
+# 4king
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+เป็นเว็บไซต์สมัครเข้าเรียนเข้าโรงเรียน4KING!!! โดยเว็บไซต์ที่ใช้ 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# # วิธีติดตั้ง
+เลือก file path ที่ต้องการจะเก็บไฟล์ไว้
+```cd filepath```
+
+clone repo
+``` git clone https://github.com/DoLLaRs6252/4kings-web-register.git```
+
+เปลี่ยน directory ไปที่ 4kings-web-register
+``cd 4kings-web-register``
+
+ติดตั้ง dependency
+	```npm i``
+
+## # ภาษา Framwork   และ Toolต่างๆที่ใช้
+
+- React
+- tailwind
+- daisyUI
+

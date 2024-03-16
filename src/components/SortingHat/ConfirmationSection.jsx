@@ -13,7 +13,7 @@ export default function ConfirmationSection({ count, inputValue, handleInputChan
             <div className=" max-w-3xl  w-[100%] mx-auto px-4 ">
                 <div className="bg-white p-6 rounded-lg shadow-lg items-center space-y-4">
                     <div>
-                        <div className="text-[8rem] text-center font-bold">{count} King</div>
+                        <div className="text-[8rem] text-center font-bold">{count} Kings</div>
                     </div>
                     <div className='flex justify-center'>
                         <input

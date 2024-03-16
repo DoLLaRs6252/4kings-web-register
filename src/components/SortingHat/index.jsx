@@ -3,6 +3,7 @@ import ConfirmationSection from './ConfirmationSection';
 import RegistrationSection from './RegistrationSection';
 import ApplicantsSection from './ApplicantsSection';
 import HeadBanner from './Banner';
+import Footer from '../Footer';
 
 export default function SortingHat() {
   const [count, setCount] = useState(0);
@@ -66,6 +67,7 @@ export default function SortingHat() {
           applicants={applicants}
         />
       </div>
+      <Footer/>
     </div>
 
   );

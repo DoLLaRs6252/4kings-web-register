@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import SortingHat from './components/SortingHat'
-import Navbar from './components/Navbar'
+import Main_page from './Pages/Main_page'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Navbar />
-      <SortingHat />
+      <Main_page />
     </div>
   )
 }

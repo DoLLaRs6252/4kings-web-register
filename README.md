@@ -25,6 +25,10 @@ cd 4kings-web-register
 ```
 npm i
 ```
+start server
+```
+npm run dev
+```
 
 ## # ภาษา Framwork   และ Toolต่างๆที่ใช้
 

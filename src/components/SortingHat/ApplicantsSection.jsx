@@ -57,8 +57,7 @@ export default function ApplicantsSection({ applicants }) {
                     <button onClick={() => handleFilterClick(house)} className={`btn btn-outline btn-error text-white font-bold py-2 px-4  mt-4 ${selectedHouse === house ? 'bg-gray-300' : ''}`}>
                       Filter
                     </button>
-                  </div>
-                 
+                  </div>                 
                 </div>
               </div>
             </div>

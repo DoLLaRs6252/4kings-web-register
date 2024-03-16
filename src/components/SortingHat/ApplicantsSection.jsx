@@ -32,7 +32,7 @@ export default function ApplicantsSection({ applicants }) {
   return (
     <div className="bg-gray-950 p-6 shadow-lg text-red-600">
 
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex flex-col md:flex-row items-center justify-between mb-4">
         <div>
           <h2 className="text-2xl font-bold mb-6">Applicants</h2>
           <div>
@@ -47,7 +47,7 @@ export default function ApplicantsSection({ applicants }) {
           {allHouses.map((house, index) => (
             <div key={index} className={`p-4 `}>
               <div className="flex justify-around items-center">
-              <img src={houseImages[house]} alt={`House ${house}`} className="w-16 h-16 mb-2 rounded-full mr-3" />
+                <img src={houseImages[house]} alt={`House ${house}`} className="w-16 h-16 mb-2 rounded-full mr-3" />
                 <div className='m-4'>
                   <h3 className="text-xl font-bold mb-2">{house}</h3>
                   <p className="mb-4">Total Applicants: {houseCounts[house] || 0}</p>

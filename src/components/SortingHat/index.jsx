@@ -21,7 +21,7 @@ export default function SortingHat() {
     const newValue = parseInt(e.target.value);
     if (!isNaN(newValue)) {
       setInputValue(newValue);
-    }else setInputValue(0);
+    } else setInputValue(0);
   };
 
   const handleConfirm = () => {
@@ -51,7 +51,7 @@ export default function SortingHat() {
     <div>
       <HeadBanner />
       <div className="bg-gray-100">
-        <div className="flex bg-gray-950 text-red-600" >
+        <div className="flex flex-col md:flex-row bg-gray-950 text-red-600">
           <ConfirmationSection
             count={count}
             inputValue={inputValue}
@@ -63,12 +63,9 @@ export default function SortingHat() {
             handleNameSubmit={handleNameSubmit}
           />
         </div>
-        <ApplicantsSection
-          applicants={applicants}
-        />
+        <ApplicantsSection applicants={applicants} />
       </div>
-      <Footer/>
+      <Footer />
     </div>
-
   );
 }

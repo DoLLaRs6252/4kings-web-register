@@ -21,7 +21,7 @@ export default function SortingHat() {
     const newValue = parseInt(e.target.value);
     if (!isNaN(newValue)) {
       setInputValue(newValue);
-    }
+    }else setInputValue(0);
   };
 
   const handleConfirm = () => {

@@ -17,7 +17,7 @@ export default function ConfirmationSection({ count, inputValue, handleInputChan
                     </div>
                     <div className='flex justify-center'>
                         <input
-                            type="number"
+                            type="text"
                             value={inputValue}
                             onChange={handleInputChange}
                             placeholder="Number of people"
